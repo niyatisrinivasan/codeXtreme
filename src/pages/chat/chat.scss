@@ -1,0 +1,17 @@
+.ion-content {
+    overflow: hidden;
+
+    ion-card {
+        margin: 5% auto;
+        width: 100%;
+        .userMsg {
+            border-right: 5px black solid;
+            text-align:right;
+        }
+
+        .botMsg {
+            border-left: 5px black solid;
+            text-align:left;
+        }
+    }
+}
